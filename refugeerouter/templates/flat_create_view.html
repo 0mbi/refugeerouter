@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+<div>
+<form method="post" action="views/flat_create/">
+  <div class="row">
+    <div class="col">
+      <input name="address">{{ address }}</input>
+    </div>
+    <div class="col">
+      <input name="owner_last_name">{{ owner_last_name }}</input>
+    </div>
+  </div>
+</form>
+</div>
